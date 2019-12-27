@@ -1,0 +1,5 @@
+#python2
+dane=[a for a, b in zip(open('cattos.jpg').read(),open('kitters.jpg').read()) if a!=b]
+print(dane)
+x = ' '.join(dane).replace(" ", "")
+print(x)
